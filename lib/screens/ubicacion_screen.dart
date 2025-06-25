@@ -40,11 +40,13 @@ class _LocationScreenState extends State<LocationScreen> {
                     onPressed: () {
                       Navigator.push(context,MaterialPageRoute(builder: (context){
                       return CityScreen();
+                      
                     }));
                     },
                     child: Icon(
                       Icons.location_city,
                       size: 50.0,
+
                     ),
                   ),
                 ],
